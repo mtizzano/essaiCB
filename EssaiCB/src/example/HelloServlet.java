@@ -16,6 +16,6 @@ public class HelloServlet extends HttpServlet
     public void doGet(HttpServletRequest req, HttpServletResponse resp)
     throws ServletException, IOException
     {
-        resp.getWriter().println("Hello Servlet "+req.getParameter("name"));
+        resp.getWriter().println("Hello Servlet MTI "+req.getParameter("name"));
     }
 }
